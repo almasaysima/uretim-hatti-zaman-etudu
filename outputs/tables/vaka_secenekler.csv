@@ -1,0 +1,6 @@
+﻿Seçenek,Kapasite (adet/vardiya),Talebe açık (adet),Yıllık ek katkı (TL),Yatırım (TL),Geri ödeme (ay)
+Mevcut durum,352.0,148.0,0.0,,
+B  Yalnız test istasyonu −%30,353.0,147.0,4000.0,60000.0,176.6
+C1 Test: iç→dış iş (süre ≈ yalnız test),353.0,147.0,4000.0,,
+C  Test iç→dış iş + kaynak −%30 (birlikte),498.0,2.0,728000.0,150000.0,2.5
+D  İki istasyon da paralel (süre ÷2),592.0,0.0,738000.0,1200000.0,19.5

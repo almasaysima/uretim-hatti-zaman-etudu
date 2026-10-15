@@ -1,0 +1,63 @@
+﻿seq,element,op_type,form_mean,form_std,station,batch,n_readings,mean_s,fatigue_s,std_s,std_unit_s,mean_unit_s,sd_s,cv,category,form_match,n_required,sample_ok
+1,Aparata yerleştirme,Alma- Yerleştirme,6.0000,6.6000,SIZINTI TESTİ,1,3,6.0000,0.6000,6.6000,6.6000,6.0000,1.0000,0.1667,Elleçleme (alma/bırakma/yerleştirme),True,29.6296,False
+2,Sızıntı testi,Test,46.0000,50.6000,SIZINTI TESTİ,1,2,46.0000,4.6000,50.6000,50.6000,46.0000,4.2426,0.0922,Test,True,6.8053,False
+3,Prob kontrol,İşlem,9.6667,10.6333,SIZINTI TESTİ,1,3,9.6667,0.9667,10.6333,10.6333,9.6667,1.5275,0.1580,İşlem,True,26.6350,False
+4,Bırakma,Bırakma,3.3333,3.6667,SIZINTI TESTİ,1,3,3.3333,0.3333,3.6667,3.6667,3.3333,0.5774,0.1732,Elleçleme (alma/bırakma/yerleştirme),True,32.0000,False
+1,Kaynak hazırlık,İşlem,29.2000,32.1200,BİRLEŞTİRME KAYNAK,1,5,29.2000,2.9200,32.1200,32.1200,29.2000,7.1903,0.2462,İşlem,True,77.6131,False
+2,Kaynak,İşlem,23.4000,25.7400,BİRLEŞTİRME KAYNAK,1,5,23.4000,2.3400,25.7400,25.7400,23.4000,1.1402,0.0487,İşlem,True,3.0389,True
+3,Gruplama,İşlem,9.2500,10.1750,BİRLEŞTİRME KAYNAK,1,4,9.2500,0.9250,10.1750,10.1750,9.2500,0.5000,0.0541,İşlem,True,3.5062,False
+4,Bırakma,Bırakma,3.0000,3.3000,BİRLEŞTİRME KAYNAK,1,4,3.0000,0.3000,3.3000,3.3000,3.0000,0.0000,0.0000,Elleçleme (alma/bırakma/yerleştirme),True,0.0000,False
+1,Bantlama,İşlem,21.6667,23.8333,ETİKET BANTLAMA,1,3,21.6667,2.1667,23.8333,23.8333,21.6667,3.0551,0.1410,İşlem,True,21.2071,False
+2,Kalibrasyon,İşlem,7.0000,7.7000,ETİKET BANTLAMA,1,2,7.0000,0.7000,7.7000,7.7000,7.0000,0.0000,0.0000,İşlem,True,0.0000,False
+3,Hat düzenleme,İşlem,7.0000,7.7000,ETİKET BANTLAMA,1,1,7.0000,0.7000,7.7000,7.7000,7.0000,,,İşlem,True,,False
+4,Parça alma,Alma- Yerleştirme,3.0000,3.3000,ETİKET BANTLAMA,1,2,3.0000,0.3000,3.3000,3.3000,3.0000,0.0000,0.0000,Elleçleme (alma/bırakma/yerleştirme),True,0.0000,False
+1,Isıtma 1. adım,İşlem,80.0000,88.0000,ISITMA FIRINI,5,1,80.0000,8.0000,88.0000,17.6000,16.0000,,,İşlem,True,,False
+2,Isıtma 2. adım,İşlem,58.0000,63.8000,ISITMA FIRINI,5,1,58.0000,5.8000,63.8000,12.7600,11.6000,,,İşlem,True,,False
+3,Parça alma,Alma- Yerleştirme,12.0000,13.2000,ISITMA FIRINI,5,1,12.0000,1.2000,13.2000,2.6400,2.4000,,,Elleçleme (alma/bırakma/yerleştirme),True,,False
+4,Bırakma,Bırakma,10.0000,11.0000,ISITMA FIRINI,5,1,10.0000,1.0000,11.0000,2.2000,2.0000,,,Elleçleme (alma/bırakma/yerleştirme),True,,False
+1,Parça alma,Alma- Yerleştirme,4.0000,4.4000,MONTAJ TAKMA,1,2,4.0000,0.4000,4.4000,4.4000,4.0000,0.0000,0.0000,Elleçleme (alma/bırakma/yerleştirme),True,0.0000,False
+2,Takma,İşlem,21.0000,23.1000,MONTAJ TAKMA,1,3,21.0000,2.1000,23.1000,23.1000,21.0000,1.7321,0.0825,İşlem,True,7.2562,False
+3,Sıkma,İşlem,4.0000,4.4000,MONTAJ TAKMA,1,3,4.0000,0.4000,4.4000,4.4000,4.0000,0.0000,0.0000,İşlem,True,0.0000,False
+1,Parça alma,Alma- Yerleştirme,6.0000,6.6000,-2 FORM VERME,1,3,6.0000,0.6000,6.6000,6.6000,6.0000,0.0000,0.0000,Elleçleme (alma/bırakma/yerleştirme),True,0.0000,False
+2,Form verme,İşlem,15.6667,17.2333,-2 FORM VERME,1,3,15.6667,1.5667,17.2333,17.2333,15.6667,0.5774,0.0369,İşlem,True,1.4486,False
+3,Bırakma,Bırakma,3.6667,4.0333,-2 FORM VERME,1,3,3.6667,0.3667,4.0333,4.0333,3.6667,0.5774,0.1575,Elleçleme (alma/bırakma/yerleştirme),True,26.4463,False
+1,Klips takma,İşlem,52.0000,57.2000,PAKETLEME,5,1,52.0000,5.2000,57.2000,11.4400,10.4000,,,İşlem,True,,False
+2,Parça alma,Alma- Yerleştirme,30.0000,33.0000,PAKETLEME,5,1,30.0000,3.0000,33.0000,6.6000,6.0000,,,Elleçleme (alma/bırakma/yerleştirme),True,,False
+3,Kutuya bırakma,Bırakma,29.0000,31.9000,PAKETLEME,5,1,29.0000,2.9000,31.9000,6.3800,5.8000,,,Elleçleme (alma/bırakma/yerleştirme),True,,False
+1,Parça alma,Alma- Yerleştirme,36.5000,40.1500,ANA BORU KAYNAK,6,2,36.5000,3.6500,40.1500,6.6917,6.0833,0.7071,0.0194,Elleçleme (alma/bırakma/yerleştirme),True,0.3002,False
+2,Kaynak,İşlem,69.0000,75.9000,ANA BORU KAYNAK,6,2,69.0000,6.9000,75.9000,12.6500,11.5000,1.4142,0.0205,İşlem,True,0.3361,False
+3,Bırakma,Bırakma,12.5000,13.7500,ANA BORU KAYNAK,6,2,12.5000,1.2500,13.7500,2.2917,2.0833,2.1213,0.1697,Elleçleme (alma/bırakma/yerleştirme),True,23.0400,False
+1,Parça alma,Alma- Yerleştirme,5.5000,6.0500,-3 FORM VERME,1,2,5.5000,0.5500,6.0500,6.0500,5.5000,0.7071,0.1286,Elleçleme (alma/bırakma/yerleştirme),True,13.2231,False
+2,Form verme,İşlem,11.5000,12.6500,-3 FORM VERME,1,2,11.5000,1.1500,12.6500,12.6500,11.5000,0.7071,0.0615,İşlem,True,3.0246,False
+3,Bırakma,Bırakma,2.0000,2.2000,-3 FORM VERME,1,2,2.0000,0.2000,2.2000,2.2000,2.0000,0.0000,0.0000,Elleçleme (alma/bırakma/yerleştirme),True,0.0000,False
+1,Kesim (10 adet),İşlem,120.0000,132.0000,-2 KESİM,10,2,120.0000,12.0000,132.0000,13.2000,12.0000,5.6569,0.0471,İşlem,True,1.7778,False
+2,Alma (10 adet),Alma- Yerleştirme,22.5000,24.7500,-2 KESİM,10,2,22.5000,2.2500,24.7500,2.4750,2.2500,2.1213,0.0943,Elleçleme (alma/bırakma/yerleştirme),True,7.1111,False
+1,Sarım,İşlem,10.5000,11.5500,-3 SARIM,1,2,10.5000,1.0500,11.5500,11.5500,10.5000,0.7071,0.0673,İşlem,True,3.6281,False
+2,Parça alma,Alma- Yerleştirme,2.0000,2.2000,-3 SARIM,1,1,2.0000,0.2000,2.2000,2.2000,2.0000,,,Elleçleme (alma/bırakma/yerleştirme),True,,False
+1,Sarım,İşlem,9.0000,9.9000,-2 SARIM,1,2,9.0000,0.9000,9.9000,9.9000,9.0000,0.0000,0.0000,İşlem,True,0.0000,False
+2,Parça alma,Alma- Yerleştirme,2.0000,2.2000,-2 SARIM,1,1,2.0000,0.2000,2.2000,2.2000,2.0000,,,Elleçleme (alma/bırakma/yerleştirme),True,,False
+1,Havşa (10 adet),İşlem,102.5000,112.7500,-4-5 HAVŞA,10,2,102.5000,10.2500,112.7500,11.2750,10.2500,2.1213,0.0207,İşlem,True,0.3427,False
+2,Alma (10 adet),Alma- Yerleştirme,22.5000,24.7500,-4-5 HAVŞA,10,2,22.5000,2.2500,24.7500,2.4750,2.2500,2.1213,0.0943,Elleçleme (alma/bırakma/yerleştirme),True,7.1111,False
+1,Takma,İşlem,40.0000,44.0000,KAPİLER TAKMA,5,1,40.0000,4.0000,44.0000,8.8000,8.0000,,,İşlem,True,,False
+2,Parça alma,Alma- Yerleştirme,8.0000,8.8000,KAPİLER TAKMA,5,1,8.0000,0.8000,8.8000,1.7600,1.6000,,,Elleçleme (alma/bırakma/yerleştirme),True,,False
+1,Büküm,İşlem,6.0000,6.6000,-4 BÜKÜM,1,2,6.0000,0.6000,6.6000,6.6000,6.0000,0.0000,0.0000,İşlem,True,0.0000,False
+2,Parça alma,Alma- Yerleştirme,2.0000,2.2000,-4 BÜKÜM,1,2,2.0000,0.2000,2.2000,2.2000,2.0000,0.0000,0.0000,Elleçleme (alma/bırakma/yerleştirme),True,0.0000,False
+1,Kaynak (35 adet),İşlem,255.0000,280.5000,-1 KAPİLER KAYNAK,35,1,255.0000,25.5000,280.5000,8.0143,7.2857,,,İşlem,True,,False
+1,Bantlama,İşlem,4.0000,4.4000,BANTLAMA (2),1,3,4.0000,0.4000,4.4000,4.4000,4.0000,0.0000,0.0000,İşlem,True,0.0000,False
+2,Parça alma,Alma- Yerleştirme,1.0000,1.1000,BANTLAMA (2),1,3,1.0000,0.1000,1.1000,1.1000,1.0000,0.0000,0.0000,Elleçleme (alma/bırakma/yerleştirme),True,0.0000,False
+1,Kesim (10 adet),İşlem,46.0000,50.6000,-1 BORU KESİM,10,2,46.0000,4.6000,50.6000,5.0600,4.6000,1.4142,0.0307,İşlem,True,0.7561,False
+2,Alma (10 adet),Alma- Yerleştirme,8.5000,9.3500,-1 BORU KESİM,10,2,8.5000,0.8500,9.3500,0.9350,0.8500,0.7071,0.0832,Elleçleme (alma/bırakma/yerleştirme),True,5.5363,False
+1,Kesim (7 adet),İşlem,29.5000,32.4500,-3 KESİM MAKİNESİ,7,2,29.5000,2.9500,32.4500,4.6357,4.2143,0.7071,0.0240,İşlem,True,0.4596,False
+2,Alma (7 adet),Alma- Yerleştirme,4.5000,4.9500,-3 KESİM MAKİNESİ,7,2,4.5000,0.4500,4.9500,0.7071,0.6429,0.7071,0.1571,Elleçleme (alma/bırakma/yerleştirme),True,19.7531,False
+1,Sıvama (10 adet),İşlem,31.5000,34.6500,SIVAMA,10,2,31.5000,3.1500,34.6500,3.4650,3.1500,0.7071,0.0224,İşlem,True,0.4031,False
+2,Alma (10 adet),Alma- Yerleştirme,4.0000,4.4000,SIVAMA,10,2,4.0000,0.4000,4.4000,0.4400,0.4000,0.0000,0.0000,Elleçleme (alma/bırakma/yerleştirme),True,0.0000,False
+1,Kesim (10 adet),İşlem,31.5000,34.6500,-4 BORU KESİM,10,2,31.5000,3.1500,34.6500,3.4650,3.1500,0.7071,0.0224,İşlem,True,0.4031,False
+2,Alma (10 adet),Alma- Yerleştirme,4.5000,4.9500,-4 BORU KESİM,10,2,4.5000,0.4500,4.9500,0.4950,0.4500,0.7071,0.1571,Elleçleme (alma/bırakma/yerleştirme),True,19.7531,False
+1,Havşa (10 adet),İşlem,27.0000,29.7000,-4 CNC HAVŞA,10,2,27.0000,2.7000,29.7000,2.9700,2.7000,2.8284,0.1048,İşlem,True,8.7791,False
+2,Alma (10 adet),Alma- Yerleştirme,4.0000,4.4000,-4 CNC HAVŞA,10,2,4.0000,0.4000,4.4000,0.4400,0.4000,0.0000,0.0000,Elleçleme (alma/bırakma/yerleştirme),True,0.0000,False
+1,Havşa (10 adet),İşlem,22.5000,24.7500,-6 HAVŞA,10,2,22.5000,2.2500,24.7500,2.4750,2.2500,2.1213,0.0943,İşlem,True,7.1111,False
+2,Alma (10 adet),Alma- Yerleştirme,3.5000,3.8500,-6 HAVŞA,10,2,3.5000,0.3500,3.8500,0.3850,0.3500,0.7071,0.2020,Elleçleme (alma/bırakma/yerleştirme),True,32.6531,False
+1,Kesim (10 adet),İşlem,20.5000,22.5500,BORU KESİM,10,2,20.5000,2.0500,22.5500,2.2550,2.0500,0.7071,0.0345,İşlem,True,0.9518,False
+2,Alma (10 adet),Alma- Yerleştirme,3.5000,3.8500,BORU KESİM,10,2,3.5000,0.3500,3.8500,0.3850,0.3500,0.7071,0.2020,Elleçleme (alma/bırakma/yerleştirme),True,32.6531,False
+1,Pah kırma (10 adet),İşlem,7.0000,7.7000,PAH KIRMA,10,2,7.0000,0.7000,7.7000,0.7700,0.7000,0.0000,0.0000,İşlem,True,0.0000,False
+2,Alma (10 adet),Alma- Yerleştirme,1.0000,1.1000,PAH KIRMA,10,2,1.0000,0.1000,1.1000,0.1100,0.1000,0.0000,0.0000,Elleçleme (alma/bırakma/yerleştirme),True,0.0000,False

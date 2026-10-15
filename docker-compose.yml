@@ -1,0 +1,23 @@
+services:
+  # docker compose run --rm demo            → sentetik veriyle çalıştırır
+  demo:
+    build: .
+    command: ["--demo"]
+    volumes:
+      - ./outputs:/app/outputs
+
+  # docker compose run --rm analiz --input data/raw/etut.xlsx --demand 400
+  analiz:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./outputs:/app/outputs
+
+  # docker compose run --rm test
+  test:
+    build: .
+    entrypoint: ["sh", "-c", "pip install -q pytest && python -m pytest"]
+    volumes:
+      - ./tests:/app/tests
+      - ./pyproject.toml:/app/pyproject.toml
+    user: root
