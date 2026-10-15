@@ -13,13 +13,13 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-import matplotlib
+import matplotlib  # noqa: E402
 matplotlib.use("Agg")
-import matplotlib.pyplot as plt
-import pandas as pd
+import matplotlib.pyplot as plt  # noqa: E402
+import pandas as pd  # noqa: E402
 
-from src import demo_data, loader, metrics
-from src.plots import BLUE, GREY, NAVY, ORANGE, RED, _save, _style
+from src import demo_data, loader, metrics  # noqa: E402
+from src.plots import BLUE, GREY, NAVY, ORANGE, RED, _save, _style  # noqa: E402
 
 AVAILABLE_S, DEMAND = 25_200, 500
 # --- MALİ VARSAYIMLAR (uydurma; gerçek değerlerle değiştirin) ---
